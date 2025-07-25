@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Use the API key directly since .env might be blocked
-const GEMINI_API_KEY = "AIzaSyBnoQTygTYyWBfEdh2N_x7ZMh19m0OajZ0";
+const GEMINI_API_KEY = "add your api key";
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 // Middleware
